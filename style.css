@@ -1,0 +1,181 @@
+body { 
+
+	font-family: Arial, sans-serif; 
+	background:#f0f4ff; 
+	margin:0; 
+	padding:0; 
+
+}
+
+	nav { 
+
+	background:linear-gradient(90deg, #7286d3, #8ea7e9);
+	padding:19px;
+	text-align: center; 
+	box-shadow:0 2px 8px rgba(0,0,0,0.2);
+
+}
+
+	nav a { 
+	color:#fff; 
+	text-decoration:none; 
+	margin:0 16px; 
+	font-weight:bold; 
+	font-size:16px;
+
+}
+
+nav a:hover {
+
+	color:#ffeaa7;
+}
+
+.container {
+	width:75%;
+	margin:auto;
+	padding: 30px;
+}
+
+.card {
+	background:white;
+	padding:25px;
+	marging:25px 0;
+	border-radius:15px;
+	box-shadow:0 4px 12px rgba (0.0.0.0,1);
+	border-left:6px solid #8ea7e9;
+	transition: 0.4s;
+}
+
+.card:hover{
+	transform:translateY(-4px);\	
+	box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}
+
+footer {
+	text-align:center;
+	padding:12px;
+	background:#7286d3
+	color: white;
+	margin-top: 20px;
+}
+
+
+.icon {
+	font-size:30px;
+	color: #7286d3;
+	margin-right:8px;
+}
+
+.profile-card {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.profile photo {
+	width: 180px; 
+	height: 220px;
+	border-radius: 15px;
+	object-flit: cover;
+	box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+.profile-right p{
+	margin: 8px 0;
+	font-size: 16px;
+}
+
+.edu-image {
+	width: 600px;
+	height: auto;
+	display: block;
+	margin -left: 20px auto;
+	border-radius: 12px;
+}
+
+.edu-table th {
+	background: #4a47a3;
+	color: white;
+	padding: 16px;
+	font-size: 18px;
+	}
+
+.edu-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 25px;
+	border-radius: 13px;
+	overflow: hidden;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	}
+
+.edu-table img {
+	width: 180px;
+	height: 150px;
+	object-fit: contain;
+	border-radius: 10px;
+	border: 2px solid #6a5acd;
+}
+
+.edu-table td {
+	padding: 15px;
+	border-bottom: 1px solid #ccc;
+	font-size: 16px;
+}
+
+.edu-table tr:hover {
+	background: #eef2ff;
+}
+
+
+. logo {
+	width: 80px;
+	height: 80px;
+	object-fit: contain;
+} 
+
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 20px;
+	color: #4c1c82;
+}
+
+.edu-image,
+.exp-image {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    border: 3px solid #6a5acd;
+    transition: 0.3s;	
+}
+
+.edu-image:hover,
+.exp-image:hover {
+	transform:scaled(1.05);
+}
+
+.family-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.family-table th {
+    background-color: lightpink;
+    padding: 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.family-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
+}
+
